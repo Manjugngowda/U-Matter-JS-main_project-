@@ -616,7 +616,7 @@ window.addEventListener("load", () => {
       .getElementsByClassName("ice-content")[0]
       .classList.remove("active-show-ice");
     videoice.pause();
-    videoAudioice.pause();
+    videoAudioice.pause(); 
     selectContainerice.querySelector("i.fas").classList.add("fa-play");
     selectContainerice.querySelector("i.fas").classList.remove("fa-pause");
     document
